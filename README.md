@@ -6,10 +6,9 @@
 
 ## CLI Installation
 
-### [Homebrew](http://brew.sh)
+### Go
 
-    brew tap justincampbell/formulae
-    brew install anybar
+    go get github.com/justincampbell/anybar
 
 ### Package
 
@@ -17,10 +16,6 @@
     tar -zxvf anybar-latest.tar.gz
     cd anybar-latest/
     make install
-
-### Go
-
-    go get github.com/justincampbell/anybar
 
 ## Usage
 
