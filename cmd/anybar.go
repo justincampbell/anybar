@@ -13,7 +13,7 @@ var port int
 func init() {
 	flag.Usage = usage
 
-	flag.IntVar(&port, "port", 1738, "the port of an AnyBar instance")
+	flag.IntVar(&port, "port", anybar.DefaultPort, "the port of an AnyBar instance")
 
 	flag.Parse()
 }

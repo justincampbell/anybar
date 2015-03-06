@@ -7,7 +7,7 @@ import (
 	"net"
 )
 
-const defaultPort = 1738
+const DefaultPort = 1738
 
 func Black()       { _ = Send("black") }
 func Blue()        { _ = Send("blue") }
@@ -23,7 +23,7 @@ func Exclamation() { _ = Send("exclamation") }
 
 // Send sets the icon to the string given using the default AnyBar port
 func Send(icon string) error {
-	return SendTo(icon, defaultPort)
+	return SendTo(icon, DefaultPort)
 }
 
 // SendTo sets the icon to the string given using a custom AnyBar port
