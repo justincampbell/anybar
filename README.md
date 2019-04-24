@@ -8,7 +8,7 @@
 
 ### Go
 
-    go get github.com/justincampbell/anybar
+    go get github.com/justincampbell/anybar/cmd/anybar
 
 ### Package
 
